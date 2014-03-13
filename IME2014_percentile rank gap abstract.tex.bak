@@ -20,16 +20,33 @@ Weihao Choo$^1$\\
 
 {\bf Abstract}
 
-This paper proposes ``percentile rank gap'' to quantify the dependence between the two variables at different percentiles.
- The quantification is important for example in stock markets where normal returns are weakly dependent 
- but abnormal returns are highly dependent and linked to a major correction. Another example is insurance where natural catastrophe losses
-  from related business lines happen simultaneously but ``average" losses are  only weakly dependent.
+This paper proposes and studies a new statistic, called the ``percentile rank gap," to quantify  dependence between  two variables at different 
+percentiles.  The statistic is useful in for example in stock markets where normal returns are weakly dependent
+ but abnormal returns are highly dependent and linked often linked to a major correction. Another example is insurance where natural 
+catastrophe losses from related business lines happen simultaneously but ``average" losses are  only weakly dependent.
 
-The percentile rank gap is defined in terms of conditional expectations, and lies between $-1$ and $1$ at all percentiles. For example, the percentile rank gap of a Gumbel copula starts below $1$ then increases to $1$, reflecting imperfect lower tail dependence and perfect upper tail dependence, respectively. For a Clayton copula, percentile rank gap starts at $1$, then decreases. In general a percentile rank gap of $1$ at percentile $\alpha$ implies variables are simultaneously below or above percentile $\alpha$, or ``concordant'' relative to $\alpha$. Increasing ``discordance'' and dispersion between discordant percentiles reduces percentile rank gap.
+The percentile rank gap is defined in terms of conditional expectations, and lies between $-1$ and $1$ at all percentiles.
+For example, the percentile rank gap of a Gumbel copula starts below $1$ then increases to $1$,
+reflecting imperfect lower tail dependence and perfect upper tail dependence, respectively.
+For a Clayton copula, percentile rank gap starts at $1$, then decreases.
+In general a percentile rank gap of $1$ at percentile $\alpha$ implies variables are simultaneously below or above percentile $\alpha$, or 
+``concordant'' relative to $\alpha$.
+Increasing ``discordance'' and dispersion between discordant percentiles reduces percentile rank gap.
 
-Percentile rank gap satisfies several ``coherence'' properties. Percentile rank gap lies between $-1$ and $1$, with $-1$, $0$ and $1$ representing countermonotonicity, independence and comonotonicity, respectively. In addition percentile rank gap increases with the correlation order of the copula, therefore positively dependent variables have positive percentile rank gap, and vice versa. Lastly, taking a weighted average of percentile rank gap across all percentiles yields Spearman's correlation.
+Percentile rank gap satisfies several ``coherence'' properties.
+Percentile rank gap lies between $-1$ and $1$, with $-1$, $0$ and $1$ representing countermonotonicity,
+independence and comonotonicity, respectively.
+In addition percentile rank gap increases with the correlation order of the copula,
+ therefore positively dependent variables have positive percentile rank gap, and vice versa.
+ Lastly, taking a weighted average of percentile rank gap across all percentiles yields Spearman's correlation.
 
-Percentile rank gap yields an alternative, practical approach to fit copulas to real world data. The starting point is empirically calculated percentile rank gap. The empirical calculation is refined by expert judgement of the dependence at various percentiles. Lastly a copula yielding the refined percentile rank gap is constructed. The resulting copula is subject to less uncertainty than the empirical copula, and is more tailored to actual data than parametric copulas.
+Percentile rank gap yields an alternative, practical approach to fit copulas to real world data.
+The starting point is empirically calculated percentile rank gap.
+The empirical calculation is refined by expert judgement of the dependence at various percentiles.
+Lastly a copula yielding the refined percentile rank gap is constructed.
+The resulting copula is subject to less uncertainty than the empirical copula, and is more tailored to actual data than parametric copulas.
+
+
 
 \medskip
 
